@@ -5,6 +5,9 @@
 
 ## Lesson Objective
 
+- Apply Texture wraps to objects
+- Attaching a camera to its focal point using parent-child relationships
+- Transform objects based on local XYZ values
 - Apply Physics Materials to make game objects bouncy
 - Normalize vectors to point the enemy in the direction of the player
 - Randomly spawn with Random.Range on two axes
