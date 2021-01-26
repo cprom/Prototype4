@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3508030637950796522}
   - component: {fileID: 3508030637949728776}
   - component: {fileID: 8844044296782381914}
+  - component: {fileID: 5757432351513958684}
+  - component: {fileID: 6052821010816702052}
   m_Layer: 0
   m_Name: Powerup
   m_TagString: Powerup
@@ -87,6 +89,35 @@ BoxCollider:
   m_GameObject: {fileID: 3508030637947490156}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.67489624, y: 0.95568633, z: 0.20007594}
+  m_Center: {x: 0, y: -0.00000011920929, z: 0.000000007450581}
+--- !u!54 &5757432351513958684
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3508030637947490156}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &6052821010816702052
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3508030637947490156}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.67489624, y: 0.95568633, z: 0.20007594}
